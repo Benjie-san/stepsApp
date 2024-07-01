@@ -13,7 +13,7 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <RingProgress progress={0.50} />
+      <RingProgress radius={150} strokeWidth={40} progress={0.50} />
       
       <View style={styles.valueMainContainer}>
         
@@ -24,7 +24,7 @@ export default function App() {
       </View>
 
 
-      <Text style={styles.label} >TIMESTAMP: 31:24 </Text>
+      <Text style={styles.label} >TIMESTAMP: 1:26:36 </Text>
 
       <StatusBar style="auto" />
     </View>
@@ -43,9 +43,7 @@ const styles = StyleSheet.create({
     gap: 26,
     flexWrap: 'wrap',
     marginTop: 100,
-
   },
-  
   label:{
     fontSize: 20,
     color: '#fff',

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "stepsApp",
-    "slug": "stepsApp",
+    "name": "day66th",
+    "slug": "day66th",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,9 +22,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "react-native-health-connect"
-    ]
+    }
   }
 }
